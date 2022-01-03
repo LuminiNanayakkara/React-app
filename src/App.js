@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Route path="/add" component={AddUser} />
         <Route path="/edit/:id" component={EditUser} />
-        <Route path="/" component={Home} />
+        <Route path="/home" component={Home} />
       </Router>
     </div>
   );
