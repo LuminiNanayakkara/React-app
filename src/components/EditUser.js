@@ -10,7 +10,7 @@ export const EditUser = () => {
         <Input type="text" placeholder="Enter Name"></Input>
       </FormGroup>
       <Button type="edit-name">Edit Name</Button>
-      <Link to="/" className="btn btn-danger ml-2">
+      <Link to="/home" className="btn btn-danger ml-2">
         Cancel
       </Link>
     </Form>
