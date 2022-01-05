@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { GlobalContext } from "../context/GlobalState";
 import { Link } from "react-router-dom";
 import { ListGroup, ListGroupItem, Button } from "reactstrap";
 
 export const UserList = () => {
+  const { user } = useContext(GlobalContext);
+  console.log(user);
   return (
     <ListGroup className="mt-4">
       <ListGroupItem className="d-flex">
