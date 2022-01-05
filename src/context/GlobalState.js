@@ -3,7 +3,7 @@ import AppReducer from "./AppReducer";
 
 //Initial State
 const initialState = {
-  user: [
+  users: [
     { id: 1, name: "User One" },
     { id: 2, name: "User Two" },
     { id: 3, name: "User Three" },
@@ -20,7 +20,7 @@ export const GlobalProvider = ({ children }) => {
   return (
     <GlobalContext.Provider
       value={{
-        user: state.user,
+        users: state.user,
       }}
     >
       {children}
